@@ -1,0 +1,8 @@
+npm WARN deprecated coffee-script@1.10.0: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
+added 361 packages from 339 contributors and audited 1264 packages in 12.963s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 23 vulnerabilities (7 low, 6 moderate, 10 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
