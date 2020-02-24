@@ -1,16 +1,16 @@
---- 
+_schema-version: 2.0.0
 ID: PiperFiori
-_schema-version: "2.0.0"
-modules: 
-  - 
-    build-parameters: 
-      build-result: dist
-      builder: grunt
-    name: PiperFiori
-    parameters: 
-      version: "1-${timestamp}"
-    path: "."
+version: 1.0.0
+
+parameters:
+  hcp-deployer-version: 1.0.0
+
+modules:
+  - name: PiperFiori
     type: html5
-parameters: 
-  hcp-deployer-version: "1.0.0"
-version: "1.0.0"
+    path: .
+    parameters:
+      version: 1-${timestamp}
+    build-parameters:
+      builder: grunt
+      build-result: dist
