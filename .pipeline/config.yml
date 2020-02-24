@@ -1,7 +1,7 @@
 steps:
   mtaBuild:
     buildTarget: 'NEO'
-    mtaJarLocation: '/opt/sap/mta/lib/mta.jar'
+    mtaJarLocation: '/opt/sap/mta.jar'
   neoDeploy:
     neo:
       credentialsId: 'NEO_DEPLOY'
