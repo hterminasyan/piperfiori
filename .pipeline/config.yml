@@ -6,4 +6,4 @@ steps:
     neo:
       credentialsId: 'NEO_DEPLOY'
       account: 'vnpnmamw7d'
-      host: 'hana.ondemand.com'
+      host: 'eu2.hana.ondemand.com'
