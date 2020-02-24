@@ -1,2 +1,2 @@
 [main] INFO com.sap.di.ext.mta.proc.DescriptorProcessorImpl - MTA manifest processing on 11 threads
-[main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [-v]
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [--build-target=XSA, --mtar=PiperFiori]

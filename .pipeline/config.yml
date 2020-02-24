@@ -1,7 +1,6 @@
 steps:
   mtaBuild:
     buildTarget: 'NEO'
-    platform: 'neo'
   neoDeploy:
     neo:
       credentialsId: 'NEO_DEPLOY'
