@@ -4,19 +4,19 @@
 [main] DEBUG com.sap.di.ext.mta.cli.CliBuildExecutor - Starting MTA build
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignDescriptor$$impl0 for bean interface com.sap.di.ext.mta.dto.DesignDescriptor
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignModule$$impl1 for bean interface com.sap.di.ext.mta.dto.DesignModule
-[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Processing MTA <Id of your MTA>
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Processing MTA piperfiori
 [main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.proc.ModuleBuildDependency$$impl2 for bean interface com.sap.di.ext.mta.proc.ModuleBuildDependency
-[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA <Id of your MTA>
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA piperfiori
 [main] INFO org.eclipse.che.commons.lang.concurrent.ThreadLocalPropagateContext - using a no-op implementation of interface org.eclipse.che.commons.lang.concurrent.ThreadLocalWrapper
-[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA <Id of your MTA>: created 1 verification tasks
-[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA <Id of your MTA>: started symbol module[piperfiori]
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA piperfiori: created 1 verification tasks
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA piperfiori: started symbol module[piperfiori]
 [pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': command timeout is 300 seconds
-[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': command output file is /Users/d061763/git/piperfiori/.mta/modulebuild7574433709577122554.txt
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': command output file is /Users/d061763/git/piperfiori/.mta/modulebuild4770567674234319783.txt
 [pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': invoking command [npm, install]
 [pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': command timeout is 300 seconds
-[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': command output file is /Users/d061763/git/piperfiori/.mta/modulebuild4175442428265814895.txt
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': command output file is /Users/d061763/git/piperfiori/.mta/modulebuild461378955728918972.txt
 [pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'piperfiori': invoking command [grunt]
-[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA <Id of your MTA>: finished symbol module[piperfiori]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA piperfiori: finished symbol module[piperfiori]
 [main] ERROR com.sap.di.ext.mta.cli.CliExecutor - Failed to build module "piperfiori". Command execution failed
 com.sap.di.ext.mta.proc.MtaProcessingException: Failed to build module "piperfiori". Command execution failed
 	at com.sap.di.ext.mta.proc.ProcessingRun.consumeNextVerificationResult(ProcessingRun.java:286)

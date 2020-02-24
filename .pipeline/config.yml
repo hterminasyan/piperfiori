@@ -1,9 +1,8 @@
 steps:
   mtaBuild:
     buildTarget: 'NEO'
-    mtaJarLocation: '/Users/d061763/Documents/Development/mta.jar'
+    mtaJarLocation: '/opt/sap/mta/lib/mta.jar'
   neoDeploy:
-    neoHome: '/Users/d061763/Documents/Development/neo-java-web-sdk-3.95.12/'
     neo:
       credentialsId: 'NEO_DEPLOY'
       account: 'a2618100a'
