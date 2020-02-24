@@ -1,4 +1,4 @@
-audited 1281 packages in 2.336s
+audited 1281 packages in 1.655s
 
 3 packages are looking for funding
   run `npm fund` for details

@@ -1,0 +1,53 @@
+Running "lint" task
+
+Running "mkdir:tmpDir" (mkdir) task
+Creating "dist/tmp"...OK
+
+Running "di.code-validation.js" task
+
+Running "codevalidation:di.code-validation.js" (codevalidation) task
+execution complete with result: {"@sap/di.code-validation.js":{"issues":{"/com/sap/PiperFiori/Gruntfile.js":[{"category":"Stylistic Issue","checker":"ESLint","column":5,"helpUrl":"http://eslint.org/docs/rules/quotes","line":2,"message":"Strings must use doublequote.","path":"/com/sap/PiperFiori/Gruntfile.js","ruleId":"quotes","severity":"info"},{"category":"Stylistic Issue","checker":"ESLint","column":24,"helpUrl":"http://eslint.org/docs/rules/quotes","line":3,"message":"Strings must use doublequote.","path":"/com/sap/PiperFiori/Gruntfile.js","ruleId":"quotes","severity":"info"},{"category":"Stylistic Issue","checker":"ESLint","column":24,"helpUrl":"http://eslint.org/docs/rules/quotes","line":5,"message":"Strings must use doublequote.","path":"/com/sap/PiperFiori/Gruntfile.js","ruleId":"quotes","severity":"info"},{"category":"Stylistic Issue","checker":"ESLint","column":9,"helpUrl":"http://eslint.org/docs/rules/quotes","line":6,"message":"Strings must use doublequote.","path":"/com/sap/PiperFiori/Gruntfile.js","ruleId":"quotes","severity":"info"},{"category":"Stylistic Issue","checker":"ESLint","column":9,"helpUrl":"http://eslint.org/docs/rules/quotes","line":7,"message":"Strings must use doublequote.","path":"/com/sap/PiperFiori/Gruntfile.js","ruleId":"quotes","severity":"info"},{"category":"Stylistic Issue","checker":"ESLint","column":9,"helpUrl":"http://eslint.org/docs/rules/quotes","line":8,"message":"Strings must use doublequote.","path":"/com/sap/PiperFiori/Gruntfile.js","ruleId":"quotes","severity":"info"}]}}}
+
+Running "di.code-validation.xml" task
+
+Running "codevalidation:di.code-validation.xml" (codevalidation) task
+execution complete with result: {"@sap/di.code-validation.xml":{"issues":{}}}
+
+Running "clean:dist" (clean) task
+>> 1 path cleaned.
+
+Running "copy:copyToDbg" (copy) task
+Copied 13 files
+
+Running "openui5_preload:preloadDbg" (openui5_preload) task
+File dist/tmp-dbg/Component-preload.js created with 12 files
+
+Running "copy:copyToTmp" (copy) task
+Created 5 directories, copied 17 files
+
+Running "uglify:uglifyTmp" (uglify) task
+>> 12 files created 4.19 kB → 2.64 kB
+
+Running "cssmin:build" (cssmin) task
+>> 1 file created. 35 B → 0 B
+
+Running "openui5_preload:preloadTmp" (openui5_preload) task
+File dist/tmp/Component-preload.js created with 12 files
+
+Running "copy:copyDbgToDist" (copy) task
+Copied 14 files
+
+Running "uglify:uglifyPreload" (uglify) task
+>> 1 file created 3.55 kB → 3.39 kB
+
+Running "copy:copyTmpToDist" (copy) task
+Created 5 directories, copied 5 files
+
+Running "devx-updateNeoApp" task
+
+Running "devx-updateManifest" task
+Currently running the "devx-updateManifest" task.
+
+Running "cleanTmp" task
+
+Done.
