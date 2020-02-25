@@ -1,4 +1,4 @@
 @Library('piper-lib-os') _
 
-fioriOnCloudPlatformPipeline script:
+fioriOnCloudPlatformPipeline script:this
 karmaExecuteTests script: this, modules: ['./piperfiori']
